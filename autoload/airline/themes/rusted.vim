@@ -20,7 +20,7 @@ let s:V2   = [ '#E7B99C' , '#1C1F21' , 255 , 238 ]  " Peach cream on deep gray-b
 let s:V3   = [ '#CCCCCC' , '#1C1F21' , 85  , 234 ]  " Light gray on slightly darker gray
 let g:airline#themes#rusted#palette.visual = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
 
-let s:IA1  = [ '#7a7c7d' , '#1C1F21' , 239 , 234 , '' ]  " Subtle gray on darker gray
-let s:IA2  = [ '#7a7c7d' , '#1C1F21' , 239 , 235 , '' ]
-let s:IA3  = [ '#7a7c7d' , '#1C1F21' , 239 , 236 , '' ]
+let s:IA1  = [ '#7a7c7d' , '#2E3338' , 239 , 234 , '' ]  " Subtle gray on darker gray
+let s:IA2  = [ '#7a7c7d' , '#2E3338' , 239 , 235 , '' ]
+let s:IA3  = [ '#7a7c7d' , '#2E3338' , 239 , 236 , '' ]
 let g:airline#themes#rusted#palette.inactive = airline#themes#generate_color_map(s:IA1, s:IA2, s:IA3)
