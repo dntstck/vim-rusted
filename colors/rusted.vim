@@ -127,35 +127,35 @@ hi link diffRemoved   WarningMsg
 hi link diffAdded     String
 
 " rust -----------------------------------------------------------------------
-hi RsComment      guifg=#4B5458 guibg=NONE gui=italic
-hi RsKeyword      guifg=#FDBC4B guibg=NONE gui=bold
+hi RsComment      guifg=#4B5458 guibg=NONE gui=italic cterm=italic
+hi RsKeyword      guifg=#FDBC4B guibg=NONE gui=bold cterm=bold
 hi RsFunction     guifg=#B87333 guibg=NONE gui=NONE
-hi RsMacro        guifg=#C64E00 guibg=NONE gui=NONE
+hi RsMacro        guifg=#C64E00 guibg=NONE gui=bold cterm=bold
 hi RsIdentifier   guifg=#E7B99C guibg=NONE gui=NONE
 hi RsString       guifg=#E97451 guibg=NONE gui=NONE
 hi RsChar         guifg=#E97451 guibg=NONE gui=NONE
 hi RsNumber       guifg=#B87333 guibg=NONE gui=NONE
 hi RsOperator     guifg=#C64E00 guibg=NONE gui=NONE
 hi RsDelimiter    guifg=#B87333 guibg=NONE gui=NONE
-hi RsConstant     guifg=#E97451 guibg=NONE gui=bold
+hi RsConstant     guifg=#E97451 guibg=NONE gui=bold cterm=bold
 hi RsType         guifg=#B87333 guibg=NONE gui=NONE
 hi RsAttribute    guifg=#E7B99C guibg=NONE gui=italic
-hi RsTrait        guifg=#B87333 guibg=NONE gui=NONE
-hi RsEnum         guifg=#FDBC4B guibg=NONE gui=NONE
-hi RsStruct       guifg=#FDBC4B guibg=NONE gui=NONE
-hi RsLifetime     guifg=#E7B99C guibg=NONE gui=italic
-hi RsError        guifg=#FFFFFF guibg=#9B3F49 gui=bold
-hi RsModule       guifg=#92BDDD guibg=NONE gui=bold
-hi RsLibraryType  guifg=#9B3F49 guibg=NONE gui=bold
+hi RsTrait        guifg=#B87333 guibg=NONE gui=bold cterm=bold
+hi RsEnum         guifg=#FDBC4B guibg=NONE gui=bold cterm=bold
+hi RsStruct       guifg=#FDBC4B guibg=NONE gui=bold cterm=bold
+hi RsLifetime     guifg=#E7B99C guibg=NONE gui=italic cterm=italic
+hi RsError        guifg=#FFFFFF guibg=#9B3F49 gui=bold cterm=bold
+hi RsModule       guifg=#92BDDD guibg=NONE gui=bold cterm=bold
+hi RsLibraryType  guifg=#9B3F49 guibg=NONE gui=bold cterm=bold
 hi RsPath         guifg=#92BDDD guibg=NONE gui=NONE
 hi RsGenerics     guifg=#B87333 guibg=NONE gui=NONE
 hi RsPattern      guifg=#E7B99C guibg=NONE gui=NONE
-hi RsLoop         guifg=#C64E00 guibg=NONE gui=bold
+hi RsLoop         guifg=#C64E00 guibg=NONE gui=bold cterm=bold
 hi RsOwnership    guifg=#B87333 guibg=NONE gui=NONE
 hi RsBorrowing    guifg=#E97451 guibg=NONE gui=NONE
 hi RsPreProc      guifg=#92BDDD guibg=NONE gui=NONE
 hi RsSpecial      guifg=#FDBC4B guibg=NONE gui=NONE
-hi RsStatement    guifg=#C64E00 guibg=NONE gui=bold
-hi RsTodo         guifg=#FDBC4B guibg=NONE gui=italic
-hi RsUnderlined   guifg=#92BDDD guibg=NONE gui=underline
+hi RsStatement    guifg=#C64E00 guibg=NONE gui=bold cterm=bold
+hi RsTodo         guifg=#FDBC4B guibg=NONE gui=italic cterm=italic
+hi RsUnderlined   guifg=#92BDDD guibg=NONE gui=underline cterm=underline
 
