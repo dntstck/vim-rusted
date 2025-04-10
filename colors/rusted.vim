@@ -41,7 +41,7 @@ hi NonText       guibg=NONE    guifg=#7a7c7d gui=NONE
 
 hi Pmenu         guibg=#25292c guifg=#cfcfc2 gui=NONE
 hi PmenuSbar     guibg=#606365 guifg=NONE    gui=NONE
-hi PmenuSel      guibg=#e7b99c guifg=#cfcfc2 gui=NONE
+hi PmenuSel      guibg=#e7b99c guifg=#31363b gui=NONE
 hi PmenuThumb    guibg=#a8a9ab guifg=#a8a9ab gui=NONE
 
 hi ErrorMsg      guibg=NONE    guifg=#95da4c gui=bold
