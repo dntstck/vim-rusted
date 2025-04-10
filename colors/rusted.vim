@@ -197,7 +197,7 @@ hi link cIncluded cInclude
 
 " rust -----------------------------------------------------------------------
 hi RsComment      guifg=#CCCCCC guibg=NONE    gui=NONE         " Light gray for comments
-hi RsKeyword      guifg=#C64E00 guibg=NONE    gui=bold         " Rust orange for keywords
+hi RsKeyword      guifg=#9B3F49 guibg=NONE    gui=bold         " Rust red for keywords
 hi RsFunction     guifg=#B87333 guibg=NONE    gui=NONE         " Copper for functions
 hi RsMacro        guifg=#C64E00 guibg=NONE    gui=NONE         " Rust orange for macros
 hi RsIdentifier   guifg=#E7B99C guibg=NONE    gui=NONE         " Peach cream for identifiers
