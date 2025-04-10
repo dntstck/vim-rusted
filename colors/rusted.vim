@@ -17,7 +17,7 @@ hi Folded        guibg=#31363b guifg=#7a7c7d gui=NONE
 hi MatchParen    guibg=#8e44ad guifg=#cfcfc2 gui=NONE
 hi signColumn    guibg=#31363b guifg=#7a7c7d gui=NONE
 
-hi Comment        guifg=#CCCCCC guibg=NONE    gui=NONE
+hi Comment        guifg=#4B5458 guibg=NONE    gui=NONE
 hi Conceal        guifg=#E7B99C guibg=NONE    gui=NONE
 hi Constant       guifg=#E97451 guibg=NONE    gui=NONE
 hi Boolean        guifg=#B87333 guibg=NONE    gui=NONE
@@ -127,22 +127,35 @@ hi link diffRemoved   WarningMsg
 hi link diffAdded     String
 
 " rust -----------------------------------------------------------------------
-hi RsComment      guifg=#CCCCCC guibg=NONE    gui=NONE         " Light gray for comments
-hi RsKeyword      guifg=#9B3F49 guibg=NONE    gui=bold         " Rust red for keywords
-hi RsFunction     guifg=#B87333 guibg=NONE    gui=NONE         " Copper for functions
-hi RsMacro        guifg=#C64E00 guibg=NONE    gui=NONE         " Rust orange for macros
-hi RsIdentifier   guifg=#E7B99C guibg=NONE    gui=NONE         " Peach cream for identifiers
-hi RsString       guifg=#E97451 guibg=NONE    gui=NONE         " Burnt sienna for strings
-hi RsChar         guifg=#E97451 guibg=NONE    gui=NONE         " Burnt sienna for characters
-hi RsNumber       guifg=#B87333 guibg=NONE    gui=NONE         " Copper for numbers
-hi RsOperator     guifg=#C64E00 guibg=NONE    gui=NONE         " Rust orange for operators
-hi RsDelimiter    guifg=#B87333 guibg=NONE    gui=NONE         " Copper for delimiters
-hi RsConstant     guifg=#E97451 guibg=NONE    gui=bold         " Burnt sienna for constants
-hi RsType         guifg=#B87333 guibg=NONE    gui=NONE         " Copper for types
-hi RsAttribute    guifg=#E7B99C guibg=NONE    gui=italic       " Peach cream for attribute
-hi RsTrait        guifg=#B87333 guibg=NONE    gui=NONE         " Copper for traits
-hi RsEnum         guifg=#FDBC4B guibg=NONE    gui=NONE         " Goldenrod for enums
-hi RsLifetime     guifg=#E7B99C guibg=NONE    gui=italic       " Peach cream for lifetimes
-hi RsError        guifg=#FFFFFF guibg=#9B3F49 gui=bold         " White on muted burgundy for errors
+hi RsComment      guifg=#CCCCCC guibg=NONE    gui=NONE
+hi RsKeyword      guifg=#9B3F49 guibg=NONE    gui=bold
+hi RsFunction     guifg=#B87333 guibg=NONE    gui=NONE
+hi RsMacro        guifg=#C64E00 guibg=NONE    gui=NONE
+hi RsIdentifier   guifg=#E7B99C guibg=NONE    gui=NONE
+hi RsString       guifg=#E97451 guibg=NONE    gui=NONE
+hi RsChar         guifg=#E97451 guibg=NONE    gui=NONE
+hi RsNumber       guifg=#B87333 guibg=NONE    gui=NONE
+hi RsOperator     guifg=#C64E00 guibg=NONE    gui=NONE
+hi RsDelimiter    guifg=#B87333 guibg=NONE    gui=NONE
+hi RsConstant     guifg=#E97451 guibg=NONE    gui=bold
+hi RsType         guifg=#B87333 guibg=NONE    gui=NONE
+hi RsAttribute    guifg=#E7B99C guibg=NONE    gui=italic
+hi RsTrait        guifg=#B87333 guibg=NONE    gui=NONE
+hi RsEnum         guifg=#FDBC4B guibg=NONE    gui=NONE
+hi RsStruct       guifg=#FDBC4B guibg=NONE    gui=NONE
+hi RsLifetime     guifg=#E7B99C guibg=NONE    gui=italic
+hi RsError        guifg=#FFFFFF guibg=#9B3F49 gui=bold
 hi RsModule       guifg=#92BDDD guibg=NONE    gui=bold
-hi RsLibraryType      guifg=#9B3F49 guibg=NONE    gui=bold         " Rust red for keywords
+hi RsLibraryType  guifg=#9B3F49 guibg=NONE    gui=bold
+hi RsPath         guifg=#92BDDD guibg=NONE    gui=NONE
+hi RsGenerics     guifg=#B87333 guibg=NONE    gui=NONE
+hi RsPattern      guifg=#E7B99C guibg=NONE    gui=NONE
+hi RsLoop         guifg=#C64E00 guibg=NONE    gui=bold
+hi RsOwnership    guifg=#B87333 guibg=NONE    gui=NONE
+hi RsBorrowing    guifg=#E97451 guibg=NONE    gui=NONE
+hi RsPreProc      guifg=#92BDDD guibg=NONE    gui=NONE
+hi RsSpecial      guifg=#FDBC4B guibg=NONE    gui=NONE
+hi RsStatement    guifg=#C64E00 guibg=NONE    gui=bold
+hi RsTodo         guifg=#FDBC4B guibg=NONE    gui=italic
+hi RsUnderlined   guifg=#92BDDD guibg=NONE    gui=underline
+
