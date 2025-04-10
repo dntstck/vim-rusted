@@ -22,7 +22,7 @@ hi Conceal        guifg=#E7B99C guibg=NONE    gui=NONE
 hi Constant       guifg=#E97451 guibg=NONE    gui=NONE
 hi Boolean        guifg=#B87333 guibg=NONE    gui=NONE
 hi Debug          guifg=#BA4E49 guibg=NONE    gui=bold
-hi Error          guifg=#FFFFFF guibg=#9B3F49 gui=bold
+hi Error          guibg=#1C1F21 guifg=#E97451 gui=bold
 hi Identifier     guifg=#E7B99C guibg=NONE    gui=NONE
 hi Ignore         guifg=#CCCCCC guibg=NONE    gui=NONE
 hi Operator       guifg=#C64E00 guibg=NONE    gui=bold
