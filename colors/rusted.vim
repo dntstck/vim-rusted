@@ -6,9 +6,9 @@ endif
 let g:colors_name = 'rusted'
 
 if(&background == "dark")
-    hi Normal        guibg=#31363a guifg=#cfcfc2 gui=NONE
+    hi Normal        guibg=#31363a guifg=E7B99C gui=NONE
 else
-    hi Normal        guibg=#31363a guifg=#cfcfc2 gui=NONE
+    hi Normal        guibg=#31363a guifg=E7B99C gui=NONE
 endif
 
 hi LineNr        guibg=#31363b guifg=#7a7c7d gui=NONE
@@ -17,23 +17,24 @@ hi Folded        guibg=#31363b guifg=#7a7c7d gui=NONE
 hi MatchParen    guibg=#8e44ad guifg=#cfcfc2 gui=NONE
 hi signColumn    guibg=#31363b guifg=#7a7c7d gui=NONE
 
-hi Comment        guibg=NONE    guifg=#CCCCCC gui=NONE         " Neutral light gray
-hi Conceal        guibg=NONE    guifg=#E7B99C gui=NONE         " Peach Cream
-hi Constant       guibg=NONE    guifg=#E97451 gui=NONE         " Burnt Sienna
-hi Boolean        guibg=NONE    guifg=#92BDDD gui=NONE         " Steel Blue
-hi Debug          guibg=NONE    guifg=#BA4E49 gui=bold         " Red Clay
-hi Error          guibg=#9B3F49 guifg=#C64E00 gui=bold         " Muted Burgundy with Rust Orange
-hi Identifier     guibg=NONE    guifg=#B87333 gui=NONE         " Copper
-hi Ignore         guibg=NONE    guifg=#CCCCCC gui=NONE         " Light Gray
-hi Operator       guibg=NONE    guifg=#C64E00 gui=bold         " Rust Orange
-hi PreProc        guibg=NONE    guifg=#92BDDD gui=NONE         " Steel Blue
-hi Special        guibg=NONE    guifg=#E97451 gui=NONE         " Burnt Sienna
-hi SpecialComment guibg=NONE    guifg=#BA4E49 gui=NONE         " Red Clay
-hi Statement      guibg=NONE    guifg=#C64E00 gui=bold         " Rust Orange
-hi String         guibg=NONE    guifg=#E7B99C gui=NONE         " Peach Cream
-hi Todo           guibg=#9B3F49 guifg=#CA9219 gui=NONE         " Muted Burgundy with Goldenrod
-hi Type           guibg=NONE    guifg=#92BDDD gui=NONE         " Steel Blue
-hi Underlined     guibg=NONE    guifg=#C64E00 gui=underline    " Rust Orange
+hi Comment        guifg=#CCCCCC guibg=NONE    gui=NONE
+hi Conceal        guifg=#E7B99C guibg=NONE    gui=NONE
+hi Constant       guifg=#E97451 guibg=NONE    gui=NONE
+hi Boolean        guifg=#B87333 guibg=NONE    gui=NONE
+hi Debug          guifg=#BA4E49 guibg=NONE    gui=bold
+hi Error          guifg=#FFFFFF guibg=#9B3F49 gui=bold
+hi Identifier     guifg=#E7B99C guibg=NONE    gui=NONE
+hi Ignore         guifg=#CCCCCC guibg=NONE    gui=NONE
+hi Operator       guifg=#C64E00 guibg=NONE    gui=bold
+hi PreProc        guifg=#B87333 guibg=NONE    gui=NONE
+hi Special        guifg=#C64E00 guibg=NONE    gui=NONE
+hi SpecialComment guifg=#BA4E49 guibg=NONE    gui=NONE
+hi Statement      guifg=#C64E00 guibg=NONE    gui=bold
+hi String         guifg=#E97451 guibg=NONE    gui=NONE
+hi Todo           guifg=#FDBC4B guibg=#9B3F49 gui=NONE
+hi Type           guifg=#B87333 guibg=NONE    gui=NONE
+hi Underlined     guifg=#C64E00 guibg=NONE    gui=underline
+
 
 
 hi NonText       guibg=NONE    guifg=#7a7c7d gui=NONE
