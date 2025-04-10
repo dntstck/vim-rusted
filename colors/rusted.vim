@@ -196,22 +196,23 @@ hi link cIncluded cInclude
 
 " rust -----------------------------------------------------------------------
 hi RsComment      guifg=#CCCCCC guibg=NONE    gui=NONE         " Light gray for comments
-hi RsKeyword      guifg=#92BDDD guibg=NONE    gui=bold         " Steel blue for keywords
+hi RsKeyword      guifg=#C64E00 guibg=NONE    gui=bold         " Rust orange for keywords
 hi RsFunction     guifg=#B87333 guibg=NONE    gui=NONE         " Copper for functions
 hi RsMacro        guifg=#C64E00 guibg=NONE    gui=NONE         " Rust orange for macros
 hi RsIdentifier   guifg=#E7B99C guibg=NONE    gui=NONE         " Peach cream for identifiers
 hi RsString       guifg=#E97451 guibg=NONE    gui=NONE         " Burnt sienna for strings
-hi RsChar         guifg=#C64E00 guibg=NONE    gui=NONE         " Rust orange for characters
-hi RsNumber       guifg=#92BDDD guibg=NONE    gui=NONE         " Steel blue for numbers
-hi RsOperator     guifg=#B87333 guibg=NONE    gui=NONE         " Copper for operators
-hi RsDelimiter    guifg=#92BDDD guibg=NONE    gui=NONE         " Steel blue for delimiters
+hi RsChar         guifg=#E97451 guibg=NONE    gui=NONE         " Burnt sienna for characters
+hi RsNumber       guifg=#B87333 guibg=NONE    gui=NONE         " Copper for numbers
+hi RsOperator     guifg=#C64E00 guibg=NONE    gui=NONE         " Rust orange for operators
+hi RsDelimiter    guifg=#B87333 guibg=NONE    gui=NONE         " Copper for delimiters
 hi RsConstant     guifg=#E97451 guibg=NONE    gui=bold         " Burnt sienna for constants
-hi RsType         guifg=#92BDDD guibg=NONE    gui=NONE         " Steel blue for types
-hi RsAttribute    guifg=#E7B99C guibg=NONE    gui=italic       " Peach cream for attributes
+hi RsType         guifg=#B87333 guibg=NONE    gui=NONE         " Copper for types
+hi RsAttribute    guifg=#E7B99C guibg=NONE    gui=italic       " Peach cream for attribute
 hi RsTrait        guifg=#B87333 guibg=NONE    gui=NONE         " Copper for traits
 hi RsEnum         guifg=#FDBC4B guibg=NONE    gui=NONE         " Goldenrod for enums
-hi RsLifetime     guifg=#B87333 guibg=NONE    gui=italic       " Copper for lifetimes
+hi RsLifetime     guifg=#E7B99C guibg=NONE    gui=italic       " Peach cream for lifetimes
 hi RsError        guifg=#FFFFFF guibg=#9B3F49 gui=bold         " White on muted burgundy for errors
+
 
 " PLUGINS --------------------------------------------------------------------
 
