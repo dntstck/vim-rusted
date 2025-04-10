@@ -6,9 +6,9 @@ endif
 let g:colors_name = 'rusted'
 
 if(&background == "dark")
-    hi Normal        guibg=#31363a guifg=E7B99C gui=NONE
+    hi Normal        guibg=#31363a guifg=#E7B99C gui=NONE
 else
-    hi Normal        guibg=#31363a guifg=E7B99C gui=NONE
+    hi Normal        guibg=#31363a guifg=#E7B99C gui=NONE
 endif
 
 hi LineNr        guibg=#31363b guifg=#7a7c7d gui=NONE
