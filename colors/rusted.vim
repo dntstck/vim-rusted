@@ -145,7 +145,7 @@ hi RsEnum         guifg=#FDBC4B guibg=NONE gui=bold cterm=bold
 hi RsStruct       guifg=#FDBC4B guibg=NONE gui=bold cterm=bold
 hi RsLifetime     guifg=#E7B99C guibg=NONE gui=italic cterm=italic
 hi RsError        guifg=#FFFFFF guibg=#9B3F49 gui=bold cterm=bold
-hi RsModule       guifg=#B94F48 guibg=NONE gui=bold cterm=bold
+hi RsModule       guifg=#E7B99C guibg=NONE gui=bold cterm=bold
 hi RsLibraryType  guifg=#9B3F49 guibg=NONE gui=bold cterm=bold
 hi RsPath         guifg=#B94F48 guibg=NONE gui=NONE
 hi RsGenerics     guifg=#B87333 guibg=NONE gui=NONE
