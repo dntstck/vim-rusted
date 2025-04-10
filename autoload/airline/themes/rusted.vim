@@ -2,7 +2,7 @@ let g:airline#themes#rusted#palette = {}
 
 let s:N1   = [ '#B87333' , '#FDBC4B' , 17  , 190 ]  " Copper on goldenrod
 let s:N2   = [ '#E97451' , '#1C1F21' , 255 , 238 ]  " Burnt sienna on deep gray black
-let s:N3   = [ '#CCCCCC' , '#31363b' , 85  , 234 ]  " Light gray on darker gray
+let s:N3   = [ '#CCCCCC' , '#1C1F21' , 85  , 234 ]  " Light gray on darker gray
 let g:airline#themes#rusted#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
 
 let s:I1   = [ '#FDBC4B' , '#E97451' , 17  , 190 ]  " Goldenrod on burnt sienna
