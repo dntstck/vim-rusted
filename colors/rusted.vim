@@ -127,7 +127,7 @@ hi link diffRemoved   WarningMsg
 hi link diffAdded     String
 
 " rust -----------------------------------------------------------------------
-hi RsComment      guifg=#CCCCCC guibg=NONE    gui=NONE
+hi RsComment      guifg=#4B5458 guibg=NONE    gui=NONE
 hi RsKeyword      guifg=#9B3F49 guibg=NONE    gui=bold
 hi RsFunction     guifg=#B87333 guibg=NONE    gui=NONE
 hi RsMacro        guifg=#C64E00 guibg=NONE    gui=NONE
