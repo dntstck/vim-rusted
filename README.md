@@ -1,7 +1,10 @@
 # rusted
 
 colorscheme for Vim based on Breeze Dark, blends seamlessly with your terminal and window decorations.
-Uses a warm pallette based on the colors of Rust.
+Uses a warm pallette based on the colors of Rust, for rust development.
+
+Please be aware, this theme is untested with all other languages apart from rust. 
+use at your own visual mercy.
 
 ## Installation
 
