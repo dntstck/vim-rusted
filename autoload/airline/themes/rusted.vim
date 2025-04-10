@@ -1,8 +1,8 @@
 let g:airline#themes#rusted#palette = {}
 
-let s:N1   = [ '#E7B99C' , '#92BDDD' , 17  , 190 ]  " Peach cream on steel blue
-let s:N2   = [ '#B87333' , '#1C1F21' , 255 , 238 ]  " Copper on deep gray-black
-let s:N3   = [ '#CCCCCC' , '#31363b' , 85  , 234 ]  " Light gray on slightly darker gray
+let s:N1   = [ '#E7B99C' , '#1C1F21' , 17  , 190 ]  " Peach cream on deep gray-black
+let s:N2   = [ '#92BDDD' , '#1C1F21' , 255 , 238 ]  " Steel blue on deep gray-black
+let s:N3   = [ '#CCCCCC' , '#31363b' , 85  , 234 ]  " Light gray on darker gray
 let g:airline#themes#rusted#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
 
 let s:I1   = [ '#FDBC4B' , '#E97451' , 17  , 190 ]  " Goldenrod on burnt sienna
