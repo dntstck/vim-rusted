@@ -213,6 +213,7 @@ hi RsTrait        guifg=#B87333 guibg=NONE    gui=NONE         " Copper for trai
 hi RsEnum         guifg=#FDBC4B guibg=NONE    gui=NONE         " Goldenrod for enums
 hi RsLifetime     guifg=#E7B99C guibg=NONE    gui=italic       " Peach cream for lifetimes
 hi RsError        guifg=#FFFFFF guibg=#9B3F49 gui=bold         " White on muted burgundy for errors
+hi RsModule       guifg=#92BDDD guibg=NONE    gui=bold
 
 
 " PLUGINS --------------------------------------------------------------------
